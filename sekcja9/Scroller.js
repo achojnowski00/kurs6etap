@@ -8,7 +8,6 @@ class Scroller {
 
     this.currentSectionIndex = currentSectionIndex < 0 ? 0 : currentSectionIndex;
 
-    console.log(this.currentSectionIndex)
     this.isThrottled = false;
 
     this.drawNavigation();
