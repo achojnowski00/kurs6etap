@@ -10,8 +10,10 @@
 }
 
 .scroller__navigation ul li {
-  width: 10px;
-  height: 10px;
+  width: 15px;
+  height: 15px;
+  border: 2px solid white;
+  box-shadow: 0 0 1px 1px black;
   border-radius: 50%;
   background-color: black;
   opacity: .5;
