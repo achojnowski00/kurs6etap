@@ -1,4 +1,5 @@
 .scroller__navigation {
+  touch-action: none;
   position: fixed;
   right: 20px;
   top: 50%;
@@ -26,4 +27,8 @@
 
 .scroller__navigation ul li.active {
   opacity: 1;
+}
+
+#root section img {
+  max-width: 100%;
 }
